@@ -34,8 +34,33 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = '1877003154';
+    var serviceWorkerVersion = '2074330340';
   </script>
+
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+
+  <!-- The core Firebase JS SDK (always required for using any Firebase service) -->
+  <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-app.js"></script>
+  <!-- Firebase Auth SDK -->
+  <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-auth.js"></script>
+  <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyCKtsKT-aWTlFIMrrU1lp-NJ4YxbQMo-4M",
+        authDomain: "flutter-app-2f39e.firebaseapp.com",
+        projectId: "flutter-app-2f39e",
+        storageBucket: "flutter-app-2f39e.appspot.com",
+        messagingSenderId: "682768887111",
+        appId: "1:682768887111:web:78e9408564ffc1fac23062",
+        measurementId: "G-QY0MQC1M8W"
+      }
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig)
+    </script>
+  <!-- END OF FIREBASE INIT CODE -->
+
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
 </head>
